@@ -6,5 +6,5 @@ fun main() {
     Thread.setDefaultUncaughtExceptionHandler(
         DaggerMainComponent.create().appExceptionHandler()
     )
-    error("hello, world")
+    error("hello, and crash")
 }
